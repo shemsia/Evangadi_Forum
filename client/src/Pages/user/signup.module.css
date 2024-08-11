@@ -1,0 +1,257 @@
+.signup {
+  background-image: url("../../Asset/image/10001.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+}
+.signup__container {
+  width: 89%;
+  padding-top: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.signup__form {
+  position: relative;
+  width: 550px;
+  height: 548px;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem #00000026 !important;
+  border: 2px #fff solid;
+  opacity: 1;
+  line-height: 1.4rem;
+}
+
+.signup__title h6 {
+  color: #344767;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 5%;
+}
+
+.signUp__Description p {
+  color: #67748e;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.signup__Description_orange button {
+  color: #da7000;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+.signup__Description_orange button :hover{
+  color: white;
+}
+.signIn_Wrapper h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #344767;
+  font-size: 18px;
+}
+.signIn_Wrapper p {
+  font-family: "Poppins", sans-serif;
+  color: #344767;
+  font-size: 15px;
+}
+.signup__input {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  width: 469px;
+  height: 49px;
+  border-radius: 5px;
+  border: 0.2px solid rgb(183, 181, 181);
+  padding: 10px;
+}
+.firstLast_names {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.firstlast_names > input {
+  width: 205px;
+}
+
+::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.signup__btn {
+  font-size: 18px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #516cf0;
+  outline: 0;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signup__btn:hover {
+  background-color: #da7000;
+}
+.password_Wrapper {
+  font-size: 17px;
+  padding-top: 3%;
+  padding: 3.5% 0 3.5% 65%;
+  color: #da7000;
+}
+/* about */
+
+.login__about {
+  width: 500px;
+  height: 400px;
+}
+.email_Wrapper {
+  margin-bottom: 10px;
+}
+.about {
+  color: #da7000;
+  font-size: 18px;
+}
+.LoginWrapper {
+  padding: 3% 46.5%;
+}
+.about__title,
+.about__Discription {
+  font-family: "Poppins", sans-serif;
+  color: #344767;
+}
+.about__title h1 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(310deg, #000000, #e33f00);
+}
+.login__about > button {
+  background-color: #fe8402;
+  padding: 5px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+.email_Wrapper input {
+  padding: 3% 56% 3% 3%;
+  border: 0.2px solid rgb(183, 181, 181);
+  border-radius: 3px;
+  background-color: #e8f0fe;
+}
+.input_wrapper input {
+  padding: 3% 56% 3% 3%;
+  border: 0.2px solid rgb(183, 181, 181);
+  border-radius: 3px;
+  background-color: #e8f0fe;
+}
+.signup_wrapper,
+.passwordReset_wrapper {
+  display: none;
+}
+
+.signup_wrapper {
+  display: block;
+}
+
+.passwordReset_wrapper {
+  display: block;
+}
+
+.passwordReset_wrapper.active {
+  display: block;
+}
+.signup_wrapper.active {
+  display: block;
+}
+.last_containerWrapper{
+  
+    background-color: #fe8402;
+    padding: 7px 35px;
+    width: 195px;
+    border-radius: 6%;
+}
+
+.last_containerWrapper a{
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 768px) {
+  .login__about {
+    display: none;
+  }
+}
+@media (max-width: 426px) {
+  .signup__form {
+    width: 265px;
+    height: 487px;
+    padding: 21px;
+  }
+
+  .password_Wrapper {
+    font-size: 16px;
+    font-size: 17px;
+    padding-top: 3%;
+    padding: 1.5% 0 3.5%;
+    color: #da7000;
+  }
+
+  .email_Wrapper input {
+    padding: 3% 16% 3% 3%;
+    border: 0.2px solid rgb(183, 181, 181);
+    border-radius: 3px;
+    background-color: #e8f0fe;
+  }
+  .LoginWrapper {
+    padding: 3% 42%;
+  }
+  .input_wrapper input {
+    padding: 3% 16% 3% 3%;
+    border: 0.2px solid rgb(183, 181, 181);
+    border-radius: 3px;
+    background-color: #e8f0fe;
+  }
+  .firstLast_names {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .signup__input {
+    width: 217px;
+    height: 41px;
+  }
+  .firstlast_names > input {
+    width: 217px;
+  }
+  .signup__btn {
+    font-size: 16px;
+    height: 33px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,90 @@
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+   padding: 60px 0 40px 0;
+    background-color: #3b455a;
+}
+.footer__container{
+      padding: 60px 0 40px 0;
+    background-color: #3b455a;
+}
+
+.footer__brand > img {
+  width: 200px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.social__Container {
+  display: flex;
+  gap: 10px;
+  padding-top:5%;
+}
+
+.social__logo {
+  color: #fff;
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 16px;
+    height: 45px;
+}
+.logo_wrapper{ color: #fff;
+   display: inline-block;
+
+}
+.footer_links h3 {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  color: #fff !important;
+  margin-bottom: 15px;
+}
+
+
+.footer__info h2 {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer__links li,
+.footer__info li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.footer__info ul{
+  padding-left: 0%;
+}
+.footer__links a,
+.footer__info a {
+  color: rgba(213, 213, 213, 0.6);
+  text-decoration: none;
+}
+
+.footer__links div div a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+.footer__info a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer__info ul li div{
+  color: rgba(213, 213, 213, 0.6);
+}
+@media (max-width:580px) {
+  .social__Container {
+   
+    padding-bottom: 4%;
+}
+  .footer__info h2 {
+  margin-bottom: 10px;
+  margin-top: 19px;
+}
+}

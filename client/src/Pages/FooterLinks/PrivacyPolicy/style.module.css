@@ -1,0 +1,34 @@
+.outer_container_wrapper {
+  padding-top: 8%;
+  background-image: url("../../../Asset/image/howitworks.png");
+  width: 100%;
+  height: 126%;
+  background-position: bottom;
+}
+.outer_container_wrapper h1 {
+  padding: 4% 3% 6% 19%;
+  font-weight: bold;
+  font-size: 30px;
+}
+.discription_Wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 88%;
+  margin: auto;
+}
+.discription_Wrapper h2{
+  font-weight: 800;
+  font-size: 20px;
+  color:#344767;
+}
+.discription_Wrapper h3{
+font-size: 18px;
+  color:#344767;
+  font-weight: 800;
+}
+.discription_Wrapper p{
+   font-family: "Poppins", sans-serif;
+  color: #344767;
+  font-size: 16px;
+ 
+}
